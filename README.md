@@ -1,3 +1,4 @@
+![HLD](https://github.com/Lucifer7355/Microservices_for_ecommerce_application/blob/main/demonstration_images/HLD.jpg)
 # Microservices_for_ecommerce_application
 Ecommerce Application Backend (Focussing on Cart and Product part only) using SpringBoot
 It consists of five parts : 
@@ -7,6 +8,8 @@ It consists of five parts :
 4. api-gateway-server
 5. ActiveMQ Broker (Download and run as per the given instruction in this readme)
 
+# Demonstration : 
+
 Application has the following scenarios :
 
 - Add one or many products to the application’s database
@@ -15,6 +18,7 @@ Application has the following scenarios :
 - Get cart products
 - Delete product from the cart
 - Delete all products from the cart
+
 
 # For product-cart microservice :  
 Application will have 5 dependencies:
@@ -219,4 +223,4 @@ spring:
             - Path=/cart/**
 ```
 
-Now the microservice endpoints are open to use and can be used to request data in the form of JSON from frontend.
+## Now the microservice endpoints are open to use and can be used to request data in the form of JSON from frontend.
