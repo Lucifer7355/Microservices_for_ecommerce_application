@@ -19,8 +19,24 @@ Application has the following scenarios :
 - Get cart products
 - Delete product from the cart
 - Delete all products from the cart
-
-
+## Adding list of products
+![Adding list of products](https://github.com/Lucifer7355/Microservices_for_ecommerce_application/blob/main/demonstration_images/Screenshot%20(277).png)
+## Adding one product
+![Adding one product](https://github.com/Lucifer7355/Microservices_for_ecommerce_application/blob/main/demonstration_images/Screenshot%20(278).png)
+## Get request to check all the products present in the products database
+![Get request to check all the products present in the products database](https://github.com/Lucifer7355/Microservices_for_ecommerce_application/blob/main/demonstration_images/Screenshot%20(279).png)
+## Sending product id having 1 to Cart microsevice via Active MQ
+![Sending product id having 1 to Cart microsevice via Active MQ](https://github.com/Lucifer7355/Microservices_for_ecommerce_application/blob/main/demonstration_images/Screenshot%20(280).png)
+## Get request to get all the products present inside the cart database.
+![Get request to get all the products present inside the cart database.](https://github.com/Lucifer7355/Microservices_for_ecommerce_application/blob/main/demonstration_images/Screenshot%20(281).png)
+## Get all the products inside the product datatabase
+![Get all the products inside the product datatabase](https://github.com/Lucifer7355/Microservices_for_ecommerce_application/blob/main/demonstration_images/Screenshot%20(282).png)
+## Accessing the same get all products from cart database request using API gateway 
+![Accessing the same getting all products from cart database using API gateway request](https://github.com/Lucifer7355/Microservices_for_ecommerce_application/blob/main/demonstration_images/Screenshot%20(283).png)
+## Eureka Server up and running, which registers all the available microservices
+![Eureka Server up and running, which registers all the available microservices](https://github.com/Lucifer7355/Microservices_for_ecommerce_application/blob/main/demonstration_images/Screenshot%20(284).png)
+## Active messgae queue up and running to ingest and forward data as required
+![Active messgae queue up and running to ingest and forward data as required](https://github.com/Lucifer7355/Microservices_for_ecommerce_application/blob/main/demonstration_images/Screenshot%20(286).png)
 # For product-cart microservice :  
 Application will have 5 dependencies:
 - Lombok
